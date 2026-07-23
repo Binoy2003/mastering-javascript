@@ -6,3 +6,5 @@ console.log(hasItem);
 
 const allNumbers = numbers.concat(number2)
 console.log(allNumbers);
+
+console.log(Array.isArray([77]));

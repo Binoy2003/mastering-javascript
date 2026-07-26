@@ -5,6 +5,8 @@ const person = {
   isSingle: true
 }
 
+delete person.isSingle;
+
 const keys = Object.keys(person);
 console.log(keys);
 

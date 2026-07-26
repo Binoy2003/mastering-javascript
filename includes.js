@@ -23,3 +23,4 @@ const fileName = 'My final final final.pdf'
 const twitterHandle = '@elonMask'
 
 console.log(fileName.endsWith('.pdf'));
+console.log(twitterHandle.startsWith('@'));

@@ -4,10 +4,13 @@ const sunglass = {
   brand: 'Ray Ban'
 
 }
+console.log(sunglass);
 
 const phone = {
-  brand: 'Apple'
+  brand: 'Apple',
   version: 14,
   isThreeCamera: false,
   appsInastalled: ['fb', 'wp', 'coc', 'tws']
 }
+
+console.log(phone);

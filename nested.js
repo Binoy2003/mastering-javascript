@@ -9,4 +9,4 @@ const college = {
   }
 }
 
-console.log(college.people);
+console.log(college.people.name);

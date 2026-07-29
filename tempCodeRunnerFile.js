@@ -1,5 +1,8 @@
-function multiply(a,b){ // parameters
-// const result = a * b;
-// console.log('result of multi is:', result);
+function chowdurify (name){
 
+//   const fullName = name + ' Chowdury';
+//   return fullName;
 // }
+
+// const robinchow = chowdurify('Robin');
+// console.log(robinchow);

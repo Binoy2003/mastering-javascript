@@ -4,4 +4,5 @@ function cutHAlf(number){
 }
 
 console.log('!!!!!!!!!!');
-cutHAlf(100);
+ const result = cutHAlf(100);
+ console.log('Value of the result', result);

@@ -1,4 +1,4 @@
-const numbers = [12, 23, 34, 49, 56, 66];
+const numbers = [12, 25, 34, 49, 56, 66];
 
 for(const num of numbers){
   console.log(num);

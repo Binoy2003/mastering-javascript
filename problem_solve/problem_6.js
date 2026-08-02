@@ -40,3 +40,5 @@ function countVowels(str) {
 }
 
 console.log(countVowels("Programming Hero"));
+
+console.log(countVowels("Binoy Sarker"));

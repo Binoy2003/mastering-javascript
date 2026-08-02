@@ -1,0 +1,7 @@
+//Reverse a String 
+
+let str = "programming"
+
+console.log(str[10]);
+
+console.log('String length => ', str.length);

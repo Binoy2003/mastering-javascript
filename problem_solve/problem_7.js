@@ -35,6 +35,9 @@ function isPalindrome(str) {
   } else {
     console.log("Not Palindrome");
   }
+  return str;
 }
 
 console.log(isPalindrome('civic'));
+
+console.log(isPalindrome('Wizaro'));

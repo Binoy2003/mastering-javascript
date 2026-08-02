@@ -4,4 +4,4 @@ let str = "programming"
 
 console.log(str[10]);
 
-console.log('String length => ', str.length);
+console.log('String length => ', str[str.length - 3]);

@@ -2,6 +2,11 @@
 
 let str = 'madam';
 
-let str2 = 'sir';
+let reverseStr = '';
 
-console.log(str === str2);
+for(let i = str.length -1; i>=0; i--){
+  let letter = str[i];
+  reverseStr += letter;
+}
+
+console.log(reverseStr);

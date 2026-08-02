@@ -36,4 +36,7 @@ function countVowels(str) {
       count++;
     }
   }
+  return count;
 }
+
+console.log(countVowels("Programming Hero"));

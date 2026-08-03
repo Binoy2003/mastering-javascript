@@ -3,7 +3,7 @@
 function smallestNumberFromArray(arr) {
   let smallest = arr [0];
 
-  for(let i = 1; i > arr.lenght; i++){
+  for(let i = 1; i < arr.length; i++){
      let currentElement = arr[i];
      if(currentElement < smallest){
       smallest = currentElement

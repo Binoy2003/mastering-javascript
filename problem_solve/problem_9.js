@@ -8,5 +8,11 @@ for(let i = 1; i < arr.length; i++){
   
   let currentElement = arr[i];
 
+  if(currentElement > largest){
+    largest = currentElement;
+  }
+
   console.log('current Element', currentElement);
 }
+
+console.log('largest => ', largest);

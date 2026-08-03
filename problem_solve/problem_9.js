@@ -33,4 +33,4 @@ function largestNumberFromArray(arr) {
   return largest;
 }
 
-console.log(largestNumberFromArray([234, 4545, 555, 222, 84594, 2232, 5555555]));
+console.log(largestNumberFromArray([234, 4545, 555, 222, 84594, 2232, 555555]));

@@ -28,8 +28,9 @@ function largestNumberFromArray(arr) {
       largest = currentElement;
     }
 
-    console.log("current Element", currentElement);
+    //console.log("current Element", currentElement);
   }
-
-  console.log("largest => ", largest);
+  return largest;
 }
+
+console.log(largestNumberFromArray([234, 4545, 555, 222, 84594, 2232, 5555555]));

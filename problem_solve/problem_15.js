@@ -12,3 +12,16 @@ for(let i = 0; i<arr.length; i++){
     evenNumbers.push(arr[i]);
   }
 }
+
+console.log(evenNumbers);
+
+let sum = 0;
+
+for(let key of evenNumbers){
+  console.log(key);
+  sum += key;
+}
+
+console.log(sum);
+
+// 

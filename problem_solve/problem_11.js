@@ -11,3 +11,5 @@ for(let i = 0; i < arr.length; i++){
 }
 
 console.log(sum);
+let avg = sum / arr.length;
+console.log(avg);

@@ -30,3 +30,6 @@ function generateAvg(arr) {
 }
 
 console.log(generateAvg([5, 10, 15]));
+
+
+console.lo/g(generateAvg([5, 10, 46, 58, 99, 77]));

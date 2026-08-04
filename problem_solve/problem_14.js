@@ -13,6 +13,9 @@ function onjOperation(obj){
   for(let key in obj){
     console.log(obj[key]);
   }
+  for(let key in obj){
+    console.log(key, ": ", obj[key]);
+  }
 }
 
 onjOperation(student)

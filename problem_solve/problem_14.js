@@ -21,7 +21,7 @@ function onjOperation(obj) {
   console.log("Total Propertise: ", objKeyCount);
 
 let hasEmailProperty = obj.hasOwnProperty('email');
-console.log(hasEmailProperty);
+console.log("Has Email:", hasEmailProperty);
 
 }
 

@@ -16,6 +16,10 @@ function onjOperation(obj){
   for(let key in obj){
     console.log(key, ": ", obj[key]);
   }
+
+let objKeyCount = Object.key(obj);
+
+
 }
 
 onjOperation(student)

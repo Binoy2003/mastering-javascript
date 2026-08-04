@@ -32,4 +32,7 @@ function generateAvg(arr) {
 console.log(generateAvg([5, 10, 15]));
 
 
-console.lo/g(generateAvg([5, 10, 46, 58, 99, 77]));
+console.log(generateAvg([5, 10, 46, 58, 99, 77]));
+
+
+console.log(generateAvg([10, 20, 30, 40, 50, 60, 70, 80, 90]));

@@ -5,21 +5,20 @@ const student = {
   department: "CSE",
 };
 
-function onjOperation(obj){
-  for(let key in obj){
-    console.log(key, ' ');
+function onjOperation(obj) {
+  for (let key in obj) {
+    console.log(key, " ");
   }
 
-  for(let key in obj){
+  for (let key in obj) {
     console.log(obj[key]);
   }
-  for(let key in obj){
+  for (let key in obj) {
     console.log(key, ": ", obj[key]);
   }
 
-let objKeyCount = Object.key(obj);
-
-
+  let objKeyCount = Object.keys(obj).length;
+  console.log("Total Propertise: ", objKeyCount);
 }
 
-onjOperation(student)
+onjOperation(student);

@@ -1,2 +1,1 @@
-
-// let sum = 0;
+console.log(avg);

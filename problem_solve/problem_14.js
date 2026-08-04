@@ -9,6 +9,10 @@ function onjOperation(obj){
   for(let key in obj){
     console.log(key, ' ');
   }
+
+  for(let key in obj){
+    console.log(obj[key]);
+  }
 }
 
 onjOperation(student)

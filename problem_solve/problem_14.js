@@ -19,6 +19,10 @@ function onjOperation(obj) {
 
   let objKeyCount = Object.keys(obj).length;
   console.log("Total Propertise: ", objKeyCount);
+
+let hasEmailProperty = obj.hasOwnProperty('email');
+console.log(hasEmailProperty);
+
 }
 
 onjOperation(student);

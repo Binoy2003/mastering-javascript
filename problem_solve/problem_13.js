@@ -10,3 +10,4 @@ let monitor = {
 
 console.log(monitor.brand);
 console.log(monitor["color"]);
+console.log(monitor["size"]);

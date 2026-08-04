@@ -1,6 +1,6 @@
 // return all even numbers, Then Their Sum
 
-let arr = [10, 20, 50, 150, 6, 7, 9, 11, 23];
+//let arr = [10, 20, 50, 150, 6, 7, 9, 11, 23];
 
 // let evenNumbers = [];
 
@@ -26,21 +26,32 @@ let arr = [10, 20, 50, 150, 6, 7, 9, 11, 23];
 
 // with Function
 
-function getEvenNumber(arr){
+let arr = [10, 20, 50, 150, 6, 7, 9, 11, 23];
 
+function getEvenNumber(arr) {
   let evenNumbers = [];
 
-for(let i = 0; i<arr.length; i++){
-  console.log(arr[i]);
-
-  if(arr[i] % 2 === 0){
-    console.log(arr[i]);
-    evenNumbers.push(arr[i]);
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      evenNumbers.push(arr[i]);
+    }
   }
+
+  return evenNumbers;
 }
-return evenNumbers;
+
+function getSum(arr) {
+  let sum = 0;
+
+  for (let key of arr) {
+    sum += key;
+  }
+
+  return sum;
 }
 
 let evenNumbers = getEvenNumber(arr);
-
 console.log(evenNumbers);
+
+let sum = getSum(evenNumbers);
+console.log("Sum:", sum);

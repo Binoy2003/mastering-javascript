@@ -10,3 +10,5 @@ function sumArray(number){
 console.log(sumArray([10, 20.2244, 30.524]));
 
 console.log(sumArray([66.77, 20.2244, 30.524]));
+
+console.log(sumArray([ 30.524]));

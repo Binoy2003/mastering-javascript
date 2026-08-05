@@ -6,3 +6,5 @@ function checkAdult(age) {
 }
 
 console.log(checkAdult(77));
+
+

@@ -1,1 +1,1 @@
-console.log(canApply(15, true));
+console.log(object);

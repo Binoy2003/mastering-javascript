@@ -15,7 +15,7 @@
 
 // console.log(evenNumbers);
 
-// let sum = 0;
+// let sum = 0; 
 
 // for(let key of evenNumbers){
 //   console.log(key);

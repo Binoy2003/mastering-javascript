@@ -11,9 +11,3 @@ function matchWinner(teamAGoals, teamBGoals) {
     return "Draw";
   }
 }
-
-console.log(matchWinner(2, 2));
-
-console.log(matchWinner(2, "3"));
-
-console.log(matchWinner(2, 5));

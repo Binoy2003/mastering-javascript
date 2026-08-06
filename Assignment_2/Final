@@ -1,3 +1,5 @@
+Problem - 1
+
 function matchWinner(teamAGoals, teamBGoals) {
   if (typeof teamAGoals !== "number" || typeof teamBGoals !== "number") {
     return "Invalid";
@@ -10,4 +12,18 @@ function matchWinner(teamAGoals, teamBGoals) {
   } else {
     return "Draw";
   }
+}
+
+Problem - 2
+
+function isElevatorSafe(weights) {
+  if(!Array.isArray(weights)){
+    return 'Invalid';
+  }
+let totalWeight = 0;
+
+for(let i = 0; i<weights.length; i++){
+  totalWeight += weights[i];
+}
+  return totalWeight <= 400;
 }

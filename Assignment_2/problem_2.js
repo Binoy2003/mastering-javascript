@@ -13,3 +13,5 @@ for(let i = 0; i<weights.length; i++){
 console.log(isElevatorSafe([60, 75, 50]));
 
 console.log(isElevatorSafe([60, 75, 500]));
+
+console.log(isElevatorSafe("50,33,66"));

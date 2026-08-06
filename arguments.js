@@ -12,3 +12,5 @@ function square (number){
 }
 
 square(8);
+
+square(4);

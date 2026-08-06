@@ -27,3 +27,22 @@ for(let i = 0; i<weights.length; i++){
 }
   return totalWeight <= 400;
 }
+
+Problem - 3
+
+function calculateAiCost(tokensUsed) {
+  if (typeof tokensUsed !== "number" || tokensUsed < 0) {
+    return "Invalid";
+  }
+
+  if (tokensUsed <= 500) {
+    return 0;
+  }
+  let extraTokens = tokensUsed - 500;
+
+  let chargeAmount = Math.floor(extraTokens / 100);
+
+  return chargeAmount * 5;
+}
+
+problem - 4

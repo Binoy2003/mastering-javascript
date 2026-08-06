@@ -16,3 +16,7 @@ if(typeof teamAGoals !== 'number' || typeof teamBGoals !== 'number' ){
 
 
 console.log(matchWinner(2,2));
+
+console.log(matchWinner(2,'3'));
+
+console.log(matchWinner(2,5));

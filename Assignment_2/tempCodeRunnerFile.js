@@ -1,0 +1,1 @@
+console.log(isElevatorSafe([60, 75, 50]));

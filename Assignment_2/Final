@@ -83,4 +83,4 @@ function averageResponseTime(times) {
     total += times[i];
   }
   return total / times.length;
-}
+}  

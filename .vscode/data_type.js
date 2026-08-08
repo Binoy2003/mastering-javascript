@@ -9,5 +9,5 @@ let universityResult = undefined
 
 console.log(typeof name, typeof age, typeof isMarried, typeof universityResult, typeof salary);
 
-// Non primitive : function, object and array
+// Non primitive : function, object and array.
 

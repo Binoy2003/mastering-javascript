@@ -23,4 +23,4 @@ function cashRegister (){
 
 let coffeeShopCashCounter = cashRegister()
 
-console.log(coffeeShopCashCounter());
+console.log(coffeeShopCashCounter(879797));

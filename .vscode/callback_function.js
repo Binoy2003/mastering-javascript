@@ -1,15 +1,16 @@
 function registerStudent(cb){
-  console.log("User is registering. Need more data.");
+  // console.log("User is registering. Need more data.");
 
   cb();
 
-  function UserBasicInfo(){
+  function userBasicInfo(){
     let student = {
       name: "Binoy",
       age: 23,
       id: 0112330701
     }
+    console.log(student);
   }
 }
 
-console.log(registerStudent());
+console.log(registerStudent(userBasicInfo));

@@ -1,1 +1,1 @@
-console.log(sayGreet("Rivu"));
+  // console.log("User is registering. Need more data.");

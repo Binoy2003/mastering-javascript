@@ -1,10 +1,13 @@
 function createCounter (){
   let counter = 0;
 
-  return counter;
+  return function () {
+    counter ++;
+    return counter;
+  };
 
 }
 
 let counter = createCounter ();
 
-console.log(counter);
+console.log(counter ());

@@ -4,3 +4,6 @@ const middleName = 'Iron';
 
 
 console.log(firstName + lastName);
+
+
+console.log(firstName + middleName + lastName);

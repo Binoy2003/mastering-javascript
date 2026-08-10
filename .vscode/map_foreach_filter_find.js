@@ -49,7 +49,7 @@ let prices = [200, 466, 655, 886, 1000];
 let expensiveProducts = prices.filter((elem)=>{
  console.log(elem);
  
- if(elem >= 500){
+ if(elem >= 600){
   return true
  }
   return false

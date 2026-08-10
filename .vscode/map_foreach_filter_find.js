@@ -16,3 +16,13 @@ const double = numbers.map((elem) => elem * 2);
 
 
 console.log(double);
+
+
+
+// Foreach
+
+let rolls = [10, 12, 34, 30]
+
+rolls.forEach((elem, ind, arr)=>{
+  console.log(elem, ind, arr);
+});

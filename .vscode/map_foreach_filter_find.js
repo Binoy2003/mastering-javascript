@@ -1,9 +1,15 @@
-let array = [2, 4, 6, 8, 10];
+let numbers = [2, 4, 6, 8, 10];
 
-let double = []
+// let double = []
 
-for(let i = 0; i < array.length; i++){
-  double.push(array[i]*2)
-}
+// for(let i = 0; i < array.length; i++){
+//   double.push(array[i]*2)
+// }
+
+const double = numbers.map(function(elem){
+console.log(elem);
+});
+
+
 
 console.log(double);

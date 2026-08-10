@@ -42,3 +42,17 @@ let expensiveProducts = prices.filter((elem)=>{
 });
 
 console.log(expensiveProducts);
+
+// find
+let prices = [200, 466, 655, 886, 1000];
+
+let expensiveProducts = prices.filter((elem)=>{
+ console.log(elem);
+ 
+ if(elem >= 500){
+  return true
+ }
+  return false
+});
+
+console.log(expensiveProducts);

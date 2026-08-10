@@ -6,9 +6,10 @@ let numbers = [2, 4, 6, 8, 10];
 //   double.push(array[i]*2)
 // }
 
-const double = numbers.map(function(elem){
-console.log(elem);
-});
+// const double = numbers.map(function(elem){
+// console.log(elem *2);
+// return elem *2;
+// });
 
 
 

@@ -18,6 +18,7 @@ let totalAfterDiscountApply = total - discountAmount;
 console.log(totalAfterDiscountApply);
 
 //console.log(total);
+return totalAfterDiscountApply
 
 }
 

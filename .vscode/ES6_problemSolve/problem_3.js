@@ -9,9 +9,15 @@ function calculateTotal (discount, ...prices){
     0,
   );
 
+let discountAmount = (total * discount) / 100;
 
+console.log(discountAmount);
 
-console.log(total);
+let totalAfterDiscountApply = total - discountAmount;
+
+console.log(totalAfterDiscountApply);
+
+//console.log(total);
 
 }
 

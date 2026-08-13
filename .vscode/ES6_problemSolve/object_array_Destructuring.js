@@ -12,3 +12,6 @@ const responseExtractor = (obj) => {
 console.log(responseExtractor({user: {name: "Pritom Hasan", age: 32}}));
 
 console.log(responseExtractor({user: {name: "Jobs Hasan", age: 92}}));
+
+console.log(responseExtractor({user: {name: "Chabul Hasan", age: 89}}));
+

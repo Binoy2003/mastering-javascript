@@ -7,3 +7,5 @@ const calculateShipping = (orderAmount, shippingFee = 60) => {
 }
 
 console.log(calculateShipping(1200));
+
+console.log(calculateShipping(509));

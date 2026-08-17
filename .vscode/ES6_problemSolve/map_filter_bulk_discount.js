@@ -8,3 +8,5 @@ let applyDiscount = (prices, discountRate=0) => {
 
 let productPrices = [500, 1000, 345, 700, 600];
 console.log(applyDiscount(productPrices, 10));
+
+console.log(applyDiscount(productPrices, 50));
